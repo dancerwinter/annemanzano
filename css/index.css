@@ -1,0 +1,32 @@
+.container {
+	
+}
+
+.title {
+	margin-top: 4vw;
+	margin-bottom: 1vw;
+}
+
+.sub-title {
+	margin-top: 3vw;
+}
+
+.behance-link {
+	color: #F96E6E;
+	font-weight: 700;
+}
+
+.behance-link:hover {
+	text-decoration: none;
+	color: #3238DB;
+}
+
+img {
+	max-height: 135px;
+}
+
+@media (min-width: 992px) {
+	.container, .container-lg, .container-md, .container-sm {
+	    max-width: 920px;
+	}
+}
