@@ -1,0 +1,20 @@
+.banner { 
+	background: url(../img/banner.jpg) no-repeat fixed center;
+	background-size: auto;
+	background-color: #2741AF;
+	background-blend-mode: multiply; 
+}
+
+.socmed, .gig { margin-bottom: 15px; }
+.socmed-img, .gig-img { width: 100%; margin-bottom: 8px; }
+
+@media(min-width: 320px) {
+	.banner { background-size: cover; }
+	.home-img { margin-bottom: 24px; }
+	.flagship-row { margin-bottom: 25px; }
+}
+
+@media(min-width: 992px) {
+	.home-img { width: 100%; margin-bottom: initial; }
+	.flagship-row { margin-bottom: 40px; }
+}
