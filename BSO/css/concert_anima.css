@@ -25,4 +25,10 @@
 
 .dropdown-menu.show { padding: 0; }
 
-.head { line-height: 0.75em; }
+@media(min-width: 320px) {
+	.head { line-height: 1em; }
+}
+
+@media(min-width: 992px) {
+	.head { line-height: 0.75em; }
+}

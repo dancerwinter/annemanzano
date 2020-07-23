@@ -1,0 +1,6 @@
+.banner { 
+	background: url(../img/other2.jpg) no-repeat fixed center;
+	background-color: #2741AF;
+	background-size: cover;
+	background-blend-mode: multiply; 
+}
