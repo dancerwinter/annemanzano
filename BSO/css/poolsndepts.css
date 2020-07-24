@@ -4,3 +4,16 @@
 	background-size: cover;
 	background-blend-mode: multiply; 
 }
+
+.jumbotron { margin-bottom: 0; }
+
+.pool-row { margin-bottom: 40px; }
+
+@media (min-width: 320px) {
+	div.col-sm-2 { margin-bottom: 3vw }
+}
+
+
+@media (min-width: 992px) {
+	div.col-sm-2 { margin-bottom: initial; }
+}
